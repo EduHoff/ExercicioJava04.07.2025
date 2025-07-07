@@ -1,12 +1,16 @@
 package entities;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Contract {
 	
 	private Integer number;
     private Date date;
     private Double totalValue;
+    
+    private List<Installment> installment = new ArrayList<>();
 
     public Contract(){
 
@@ -17,5 +21,7 @@ public class Contract {
         this.date = date;
         this.totalValue = totalValue;
     }
+    
+    
 
 }
