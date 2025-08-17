@@ -25,7 +25,7 @@ public class Program {
 		System.out.println("Entre os dados do contrato:");
 		System.out.println("Numero");
 		int number = sc.nextInt();
-		System.out.println("Data (dd/MM/yyy)");
+		System.out.println("Data (dd/MM/yyyy)");
 		LocalDate date = LocalDate.parse(sc.next(), fmt);
 		System.out.println("Valor do contrato: ");
 		double totalValue = sc.nextDouble();
